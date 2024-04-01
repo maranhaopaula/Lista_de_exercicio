@@ -1,0 +1,16 @@
+body{
+   height: 750px;
+   display:  flex;
+   justify-content: center;
+   align-items: center
+
+}
+
+
+.quadrado{
+    height: 200px;
+    width: 200px;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+}
