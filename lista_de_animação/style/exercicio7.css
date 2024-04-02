@@ -1,0 +1,36 @@
+div {
+    height: 0px;
+    width: 0px;
+    background-color: black;
+    animation: mover 5s infinite;
+}
+
+body{
+    height: 750px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+@keyframes mover{
+
+    0% {
+        background-color: yellow;
+        height: 0px;
+        width: 0px;
+
+    }
+    
+    50% {
+        background-color: orange;
+        height: 100px;
+        width: 100px;
+    }
+
+    100% {
+        background-color: green;
+        height: 200px;
+        width: 200px;
+    }
+}

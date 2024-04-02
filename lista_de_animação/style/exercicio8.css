@@ -1,0 +1,42 @@
+div {
+    height: 0px;
+    width: 0px;
+    background-color: black;
+    border-radius: 150px;
+    animation: mover 2s infinite;
+}
+
+body{
+    height: 750px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+@keyframes mover{
+
+    0% {
+        background-color: yellow;
+        height: 0px;
+        width: 0px;
+
+    }
+    
+    25% {
+        background-color: orange;
+        height: 100px;
+        width: 100px;
+    }
+
+    75% {
+        background-color: green;
+        height: 200px;
+        width: 200px;
+    }
+    100% {
+        background-color: pink;
+        height: 300px;
+        width: 300px;
+    }
+}

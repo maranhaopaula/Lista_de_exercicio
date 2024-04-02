@@ -1,0 +1,31 @@
+body {
+    height: 750px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center
+}
+
+.circulo {
+    height: 200px;
+    width: 200px;
+    border-radius: 90px;
+    animation: mover 2s infinite;
+    position: absolute;
+    background-color: black;
+    transition: 2ms;
+}
+.circulo:hover{
+    animation: aumentar 2s ease infinite ;
+}
+
+@keyframes mover {
+
+    0% {
+        transform: translateX(500px) ;
+    }
+    
+    100%{
+        transform: translateX(0) ;
+    }
+}
