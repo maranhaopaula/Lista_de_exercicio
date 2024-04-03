@@ -1,0 +1,32 @@
+body {
+    display: flex;
+    height: 800px;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    background-color: blue;
+}
+
+div {
+    width: 200px;
+    height: 200px;
+    background-color: white;
+    border-radius: 50%;
+    animation: mover 2s linear;
+}
+
+@keyframes mover {
+    0% {
+        justify-content: center;
+        align-items: center;
+    }
+
+    100% {
+        position: absolute;
+        top:0%;
+        left: 0%;
+        width: 70px;
+        height: 70px;
+    }
+
+}
