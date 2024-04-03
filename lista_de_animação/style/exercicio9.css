@@ -3,7 +3,7 @@ div {
     width: 200px;
     background-color: black;
     border-radius: 50%;
-    animation: pulsar 2s linear 0.5s 3;
+    animation: pulsar 2s infinite;
 }
 
 body{
