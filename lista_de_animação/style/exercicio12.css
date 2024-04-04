@@ -1,45 +1,38 @@
-body {
+body{
     display: flex;
     justify-content: center;
     align-items: center;
     height: 800px;
-    background-color: rgb(53, 53, 53);
+    color: aliceblue;
+    
 }
-
-div {
-    width: 150px;
-    height: 150px;
-    background-color: aquamarine;
-    animation: pulsar 3s linear infinite;
-}
-
-a{
-    height: 50px;
-    width: 50px;
-    border-radius: 50%;
-    background-color: antiquewhite;
+form {
+    border:10px solid black;
+    width: 300px;
+    height: 200px;
     display: flex;
+    flex-direction: column;
     justify-content: center;
-    align-items: center;
-    margin: 25px;
-    text-decoration: none;
-    color: rgb(46, 46, 46);
-    font-size: 25px;
-    position: absolute;
-    top: 0%;
-    left: 0%;
+    align-content: center;
+    background-image: url(../assets/cuida.jpeg);
+    background-size: cover;
+    animation: descer 5s ease;
+    position: relative;
+}
+button{
+    margin: 5px;
 }
 
-@keyframes pulsar {
-
-    50%{
-        width: 350px;
-        height: 350px;
-        transform: rotate(182.5deg);
+.bts{ 
+    display: flex;
+}
+@keyframes descer{
+    0%{
+        bottom: 1000px;
     }
+    
     100%{
-        width: 150px;
-        height: 150px;
-        transform: rotate(365deg);
+        bottom: 0;
     }
+    
 }

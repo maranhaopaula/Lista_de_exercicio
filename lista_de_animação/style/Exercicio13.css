@@ -1,0 +1,25 @@
+body{
+
+}
+div {
+    height: 200px;
+    width: 200px;
+    background-color: black;
+    animation: ani 1s;
+    
+}
+div {
+    height: 200px;
+    width: 200px;
+    background-color: black;
+    
+}
+div {
+    height: 200px;
+    width: 200px;
+    background-color: black;
+ 
+}
+@keyframes ani {
+    
+}
