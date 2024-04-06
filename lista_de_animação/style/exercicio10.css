@@ -4,27 +4,30 @@ body {
     width: 100%;
     justify-content: center;
     align-items: center;
-    background-color: blue;
+    
 }
 
 div {
     width: 200px;
     height: 200px;
-    background-color: white;
+    background-color: black;
     border-radius: 50%;
     animation: mover 2s linear;
+    background-image: url(../assets/cuida.jpeg);
+    background-size: cover;
+    position: relative;
+    animation: subir 5s ease;
 }
 
-@keyframes mover {
+@keyframes subir {
     0% {
-        justify-content: center;
-        align-items: center;
+        top:0%;
+        left: 0%;
     }
 
     100% {
-        position: absolute;
-        top:0%;
-        left: 0%;
+        top:-45%;
+        left: -45%;
         width: 70px;
         height: 70px;
     }
