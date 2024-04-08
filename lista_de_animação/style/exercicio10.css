@@ -1,4 +1,4 @@
-body {
+.container{
     display: flex;
     height: 800px;
     width: 100%;
@@ -6,11 +6,21 @@ body {
     align-items: center;
     
 }
+h1 { 
+    margin: 20px;
+    padding: 10px;
+    color: white;
+    border-radius: 10px;
+    width: 100px;
+    background-color: rgb(86, 93, 100);
 
-div {
+
+}
+
+
+.circulo {
     width: 200px;
     height: 200px;
-    background-color: black;
     border-radius: 50%;
     animation: mover 2s linear;
     background-image: url(../assets/cuida.jpeg);

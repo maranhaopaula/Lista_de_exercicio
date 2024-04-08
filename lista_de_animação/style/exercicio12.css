@@ -1,10 +1,23 @@
-body{
+.container{
     display: flex;
     justify-content: center;
     align-items: center;
     height: 800px;
     color: aliceblue;
     
+}
+h1 { 
+    margin: 20px;
+    padding: 10px;
+    color: white;
+    border-radius: 10px;
+    width: 100px;
+    background-color: rgb(86, 93, 100);
+
+
+}
+a {
+    text-decoration: none;
 }
 form {
     border:10px solid black;

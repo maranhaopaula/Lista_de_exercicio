@@ -1,4 +1,4 @@
-div {
+.container{
     height: 200px;
     width: 200px;
     background-color: black;
@@ -6,10 +6,26 @@ div {
 }
 
 body{
-    height: 750px;
+    height: 100vh;
     display: flex;
     justify-content: center;
     align-items: center;
+}
+h1 { 
+    margin: 20px;
+    padding: 10px;
+    color: white;
+    border-radius: 10px;
+    width: 100px;
+    background-color: rgb(86, 93, 100);
+
+
+}
+a {
+    position: relative;
+    bottom: 350px;
+    right: 550px;
+    text-decoration: none;
 }
 
 
