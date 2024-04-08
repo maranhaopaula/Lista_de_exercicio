@@ -12,10 +12,11 @@ body {
     justify-content: center;
     align-items: center;
     background-color: black;
-    transition: 2ms;
+    transition: 0.5s ;
 }
 
 .circulo:hover{
     border-radius: 0;
+    height: 100px;
 }
 
